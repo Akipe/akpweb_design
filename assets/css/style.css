@@ -253,6 +253,14 @@ a:hover {
   gap: 20px;
 }
 
+@media screen and (min-device-width: 800px) and (-webkit-min-device-pixel-ratio: 1) {
+  .Page-Menu-Navigation-Site {
+    flex-direction: row;
+  }
+  .Page-Menu-Navigation-GeneralLink {
+    justify-content: right;
+  }
+}
 .BlogList {
   display: flex;
   flex-direction: column;
